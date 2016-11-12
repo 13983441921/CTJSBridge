@@ -13,23 +13,12 @@
 		4AD812EE1B2EB2A400032D12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD812EC1B2EB2A400032D12 /* Main.storyboard */; };
 		4AD812F01B2EB2A400032D12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD812EF1B2EB2A400032D12 /* Images.xcassets */; };
 		4AD812F31B2EB2A500032D12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AD812F11B2EB2A500032D12 /* LaunchScreen.xib */; };
-		4AD812FF1B2EB2A500032D12 /* JSBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD812FE1B2EB2A500032D12 /* JSBridgeTests.m */; };
-		4AD8130D1B2EBFC100032D12 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD8130C1B2EBFC100032D12 /* UIView+LayoutMethods.m */; };
 		4AD813101B2FBB9000032D12 /* DemoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD8130F1B2FBB9000032D12 /* DemoConfiguration.m */; };
 		4AD813181B2FD00E00032D12 /* DemoResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD813171B2FD00E00032D12 /* DemoResponder.m */; };
 		4AD813201B2FD26800032D12 /* CTJSBridgeCallbackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD8131B1B2FD26800032D12 /* CTJSBridgeCallbackHandler.m */; };
 		4AD813211B2FD26800032D12 /* CTJSBridgeWebviewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD8131F1B2FD26800032D12 /* CTJSBridgeWebviewDelegate.m */; };
+		CF1D1A35FC57EE14FC0F84C7 /* libPods-JSBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 744778F381D744A47BA003AA /* libPods-JSBridge.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4AD812F91B2EB2A500032D12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4AD812D71B2EB2A400032D12 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4AD812DE1B2EB2A400032D12;
-			remoteInfo = JSBridge;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4AB882421DD569ED00F1C71C /* CTJSBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTJSBridge.h; sourceTree = "<group>"; };
@@ -43,11 +32,8 @@
 		4AD812ED1B2EB2A400032D12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AD812EF1B2EB2A400032D12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4AD812F21B2EB2A500032D12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4AD812F81B2EB2A500032D12 /* JSBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD812FD1B2EB2A500032D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AD812FE1B2EB2A500032D12 /* JSBridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSBridgeTests.m; sourceTree = "<group>"; };
-		4AD8130B1B2EBFC100032D12 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
-		4AD8130C1B2EBFC100032D12 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
 		4AD8130E1B2FBB9000032D12 /* DemoConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoConfiguration.h; sourceTree = "<group>"; };
 		4AD8130F1B2FBB9000032D12 /* DemoConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoConfiguration.m; sourceTree = "<group>"; };
 		4AD813161B2FD00E00032D12 /* DemoResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoResponder.h; sourceTree = "<group>"; };
@@ -58,6 +44,9 @@
 		4AD8131D1B2FD26800032D12 /* CTJSBridgeNativeResponderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTJSBridgeNativeResponderProtocol.h; sourceTree = "<group>"; };
 		4AD8131E1B2FD26800032D12 /* CTJSBridgeWebviewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTJSBridgeWebviewDelegate.h; sourceTree = "<group>"; };
 		4AD8131F1B2FD26800032D12 /* CTJSBridgeWebviewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTJSBridgeWebviewDelegate.m; sourceTree = "<group>"; };
+		5603C8A6A6DAA9C165F3DD1F /* Pods-JSBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSBridge/Pods-JSBridge.release.xcconfig"; sourceTree = "<group>"; };
+		744778F381D744A47BA003AA /* libPods-JSBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSBridge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6737756057A1E1EB4EA373C /* Pods-JSBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSBridge/Pods-JSBridge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,25 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4AD812F51B2EB2A500032D12 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CF1D1A35FC57EE14FC0F84C7 /* libPods-JSBridge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36B85200836AB97CC9C4BB92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				744778F381D744A47BA003AA /* libPods-JSBridge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4AD812D61B2EB2A400032D12 = {
 			isa = PBXGroup;
 			children = (
 				4AD812E11B2EB2A400032D12 /* JSBridge */,
 				4AD812FB1B2EB2A500032D12 /* JSBridgeTests */,
 				4AD812E01B2EB2A400032D12 /* Products */,
+				5EE5B2972DB4097892567C1C /* Pods */,
+				36B85200836AB97CC9C4BB92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				4AD812DF1B2EB2A400032D12 /* JSBridge.app */,
-				4AD812F81B2EB2A500032D12 /* JSBridgeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,8 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				4AD813191B2FD26800032D12 /* CTJSBridge */,
-				4AD8130B1B2EBFC100032D12 /* UIView+LayoutMethods.h */,
-				4AD8130C1B2EBFC100032D12 /* UIView+LayoutMethods.m */,
 				4AD812E61B2EB2A400032D12 /* AppDelegate.h */,
 				4AD812E71B2EB2A400032D12 /* AppDelegate.m */,
 				4AD812E91B2EB2A400032D12 /* ViewController.h */,
@@ -158,6 +148,15 @@
 			path = CTJSBridge;
 			sourceTree = "<group>";
 		};
+		5EE5B2972DB4097892567C1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6737756057A1E1EB4EA373C /* Pods-JSBridge.debug.xcconfig */,
+				5603C8A6A6DAA9C165F3DD1F /* Pods-JSBridge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AD813021B2EB2A500032D12 /* Build configuration list for PBXNativeTarget "JSBridge" */;
 			buildPhases = (
+				AEAC35596E5A1F8AD3E85947 /* [CP] Check Pods Manifest.lock */,
 				4AD812DB1B2EB2A400032D12 /* Sources */,
 				4AD812DC1B2EB2A400032D12 /* Frameworks */,
 				4AD812DD1B2EB2A400032D12 /* Resources */,
+				A610105E92820C9E06084A61 /* [CP] Embed Pods Frameworks */,
+				CFADF336E1ED3B4E7B4DE6E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,24 +179,6 @@
 			productName = JSBridge;
 			productReference = 4AD812DF1B2EB2A400032D12 /* JSBridge.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4AD812F71B2EB2A500032D12 /* JSBridgeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4AD813051B2EB2A500032D12 /* Build configuration list for PBXNativeTarget "JSBridgeTests" */;
-			buildPhases = (
-				4AD812F41B2EB2A500032D12 /* Sources */,
-				4AD812F51B2EB2A500032D12 /* Frameworks */,
-				4AD812F61B2EB2A500032D12 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4AD812FA1B2EB2A500032D12 /* PBXTargetDependency */,
-			);
-			name = JSBridgeTests;
-			productName = JSBridgeTests;
-			productReference = 4AD812F81B2EB2A500032D12 /* JSBridgeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -207,10 +191,6 @@
 				TargetAttributes = {
 					4AD812DE1B2EB2A400032D12 = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					4AD812F71B2EB2A500032D12 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 4AD812DE1B2EB2A400032D12;
 					};
 				};
 			};
@@ -228,7 +208,6 @@
 			projectRoot = "";
 			targets = (
 				4AD812DE1B2EB2A400032D12 /* JSBridge */,
-				4AD812F71B2EB2A500032D12 /* JSBridgeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,14 +223,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AD812F61B2EB2A500032D12 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A610105E92820C9E06084A61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSBridge/Pods-JSBridge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		AEAC35596E5A1F8AD3E85947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFADF336E1ED3B4E7B4DE6E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSBridge/Pods-JSBridge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AD812DB1B2EB2A400032D12 /* Sources */ = {
@@ -260,7 +280,6 @@
 			files = (
 				4AD812EB1B2EB2A400032D12 /* ViewController.m in Sources */,
 				4AD813181B2FD00E00032D12 /* DemoResponder.m in Sources */,
-				4AD8130D1B2EBFC100032D12 /* UIView+LayoutMethods.m in Sources */,
 				4AD813211B2FD26800032D12 /* CTJSBridgeWebviewDelegate.m in Sources */,
 				4AD813201B2FD26800032D12 /* CTJSBridgeCallbackHandler.m in Sources */,
 				4AD812E81B2EB2A400032D12 /* AppDelegate.m in Sources */,
@@ -269,23 +288,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AD812F41B2EB2A500032D12 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4AD812FF1B2EB2A500032D12 /* JSBridgeTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4AD812FA1B2EB2A500032D12 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4AD812DE1B2EB2A400032D12 /* JSBridge */;
-			targetProxy = 4AD812F91B2EB2A500032D12 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4AD812EC1B2EB2A400032D12 /* Main.storyboard */ = {
@@ -389,6 +392,7 @@
 		};
 		4AD813031B2EB2A500032D12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6737756057A1E1EB4EA373C /* Pods-JSBridge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSBridge/Info.plist;
@@ -399,45 +403,12 @@
 		};
 		4AD813041B2EB2A500032D12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5603C8A6A6DAA9C165F3DD1F /* Pods-JSBridge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		4AD813061B2EB2A500032D12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JSBridgeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSBridge.app/JSBridge";
-			};
-			name = Debug;
-		};
-		4AD813071B2EB2A500032D12 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JSBridgeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSBridge.app/JSBridge";
 			};
 			name = Release;
 		};
@@ -458,15 +429,6 @@
 			buildConfigurations = (
 				4AD813031B2EB2A500032D12 /* Debug */,
 				4AD813041B2EB2A500032D12 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4AD813051B2EB2A500032D12 /* Build configuration list for PBXNativeTarget "JSBridgeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4AD813061B2EB2A500032D12 /* Debug */,
-				4AD813071B2EB2A500032D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,4 +1,7 @@
+JSBridge.xcodeproj/project.xcworkspace/xcuserdata/
+JSBridge.xcodeproj/xcuserdata/
+JSBridge.xcworkspace/
+Podfile.lock
+Pods/
 .DS_Store
-JSBridge.xcodeproj/project.xcworkspace/xcuserdata
-JSBridge.xcodeproj/xcuserdata/casa.xcuserdatad
-JSBridge.xcodeproj/project.xcworkspace/xcshareddata/
+*.swp
